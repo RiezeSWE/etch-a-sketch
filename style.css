@@ -1,8 +1,45 @@
+body {
+    background-color: #666;
+    margin: 0;
+}
+
+.headerContainer{
+    margin: 2em
+}
+
+.header {
+    text-align: center;
+    font-size: 4em;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: space-between; used later when appropriate margins/padding is provided */
+    align-items: center;
+    margin: 4em;
+}
+
+.menuContainer {
+    display: flex;
+    background-color: rgb(30, 30, 32);
+    color: white;
+}
+
+.gridContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    background-color: rgb(30, 30, 32);
+    border-radius: 1.5em;
+}
+
 .box {
-    background: #9E9E9E;
+    background: #ffffff;
     border: black 1px solid;
-    width: 180px;
-    height: 180px;
+    width: 32px;
+    height: 32px;
     margin: 0 auto;
     margin-top: 0;
     cursor: pointer;
@@ -12,6 +49,10 @@
 
 .row {
     display: block;
-    float:left;
     width:100%;
+}
+
+.footerContainer {
+    position: absolute;
+    bottom: 0;
 }

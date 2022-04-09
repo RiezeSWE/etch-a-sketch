@@ -4,14 +4,24 @@
     <meta charset="utf-8">
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
 </head>
 <body>
-    <div>
-        <div class="gridContainer"></div>
+    <div class="headerContainer">
+        <div class="header">Etch-a-Sketch</div>
     </div>
-    <div>
-        <button onclick="makeGrid();">MAKE BLOCKS</button>
+    <div class="mainContainer">
+        <div class = menuContainer>
+            <div class="menuTest">This thou be a test</div>
+            <button class ="reset" onclick="resetGrid();">RESET</button>
+        </div>
+        <div class = "gridContainer">
+            <div class="grid"></div></div>
+    </div>
+    <div class="footerContainer">
+        <div class="footer">This is the footer</div>
     </div>
 </body>
+
+    <script src="./script.js"></script>
+
 </html>
