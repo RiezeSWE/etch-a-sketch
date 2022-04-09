@@ -1,4 +1,4 @@
-//function to create the grid, embedded to body to invoke it on load of webpage
+//function to create the grid
 function makeGrid(val) {
     //creates the amount of rows
     for (let i = 0; i < val; i++) {
